@@ -1,0 +1,21 @@
+{
+  "name": "nshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.2.2",
+    "next": "^9.2.2",
+    "next-cookie": "^2.1.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
