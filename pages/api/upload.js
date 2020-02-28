@@ -12,7 +12,7 @@ export default (req, res) => {
   form.keepExtensions = true
   form.parse(req, (err, fields, files) => {
     console.log(err, fields, files)
-    res.status(200).json({
+    return res.status(200).json({
       status: 'ok'
     })
   })
